@@ -1,0 +1,34 @@
+.wrapper {
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.num1, .num2 {
+	background-color: #f8c8c8;
+	padding: 10px 20px;
+	border-radius: 10px;
+	margin-bottom: 2px;
+} 
+
+.operator_btns {
+	display: flex;
+	gap: 5px;
+}
+.sing {
+}
+.plus, .minus, .times, .divide  {
+	padding: 5px 17px;
+	font-size: 25px;
+	border-radius: 5px;
+	background-color: #e1c006;
+}
+
+.result {
+	width: 100%;
+	background-color: #decd6a;
+	margin-top: 5px;
+	text-align: center;
+	font-size: 30px;
+}
